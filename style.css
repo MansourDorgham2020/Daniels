@@ -1,0 +1,277 @@
+header{
+    background-image: url(imgs/bg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.icons-social{
+    margin-top:30px;
+} 
+.icons-social a{
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+
+
+}
+ a:hover{
+    color: inherit;
+}
+.icons-social span{
+    font-size: 25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color:rgba(0, 0,0,0.3);
+    display: inline-block;
+}
+header:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.65;
+    z-index: 2;
+}
+.img-hero{
+    padding-left: 30px;
+}
+.about .img-hero img{
+    width: 100%;
+    vertical-align: middle;
+}
+.img-hero:after{
+    content: "";
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 0px;
+    bottom: -30px;
+    background-image: url(imgs/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+
+}
+.btn-outline-secondary {
+    --bs-btn-color:rgba(0,0,0);
+    --bs-btn-border-color:rgba(0,0,0);
+    --bs-btn-hover-color: #fff3cd;
+    --bs-btn-hover-bg: #212529;
+    --bs-btn-hover-border-color: #6c757d;
+    --bs-btn-focus-shadow-rgb: 108, 117, 125;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #6c757d;
+    --bs-btn-active-border-color: #6c757d;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #6c757d;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #6c757d;
+    --bs-gradient: none;
+}
+.buttom-1{
+    color: white;
+    background: #000;
+    --bs-btn-color: rgba(255,255,255);
+    --bs-btn-border-color: rgba(0,0,0);
+    --bs-btn-hover-color: rgba(0,0,0);
+    --bs-btn-hover-bg:rgba(255,255,255);
+    --bs-btn-hover-border-color: #6c757d;
+    --bs-btn-focus-shadow-rgb: 108, 117, 125;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #6c757d;
+    --bs-btn-active-border-color: #6c757d;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #6c757d;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #6c757d;
+    --bs-gradient: none;
+}
+.icon-cricle{
+    font-size: 45px;
+    margin-bottom: 20px;
+    width: 75px;
+    height: 75px;
+    line-height: 70px;
+    background:#f4f4f4;
+    border-radius: 50%;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.icon :hover{
+    color: white;
+    background-color: #000;
+    
+}
+.service-box {
+    background-color: #fff;
+}
+.works-title h2{
+    font-weight: 900;
+    font-size: 40px;
+    position: relative;
+    display: inline-block;
+    z-index: 4;
+    font-family: "Montserrat", sans-serif;
+}
+.works-title h2:after{
+    content: "";
+    width: 100%;
+    height: 30px;
+    background-image: url(imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    z-index: -1;
+}
+.head-title span{
+    display: inline-block;
+    margin: 0 15px;
+    color: #222;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+
+.head-title span:before{
+    content: "";
+    width: 0;
+    height: 2px;
+    background: #111;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    z-index: -1;
+}
+.item-img img{
+    width: 100%;
+    vertical-align: middle;
+}
+.overlay{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background: rgba(255, 255, 255, 0.95);
+    opacity: 0;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    z-index: 2;
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+}
+.overlay-contect{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translate(0%, -50%);
+    -moz-transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%);
+    -o-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+}
+.carousel-inner img{
+    height: 100px;
+    width: 100px;
+}
+.carousel-indicators [data-bs-target]{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #6c757d;
+}
+#clients{
+    background-color:#f7f7f7;
+}
+.number-icon{
+    font-size: 30px;
+}
+.counter{
+    font-weight: 900;
+}
+.contect-number p{
+    font-weight: 600;
+    font-size: 15px;
+}
+.card-icons ul li a{
+    border: 1px solid #000;
+    color: #fff;
+    background-color: #000;
+    display: block;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+.card-icons a:hover{
+    color: white;
+    background-color: #000;
+}
+.card-img img{
+    width: 100%;
+    transition: all 0.4s ease 0s;
+}
+.card-img .card-icons{
+    background-color: rgba(255, 255, 255, 0.95);
+    position: absolute;
+    text-align: center;
+    inset: 5px;
+    opacity: 0;
+    transition: 0.5s;
+    transform: rotateY(180deg) scale(0.5, 0.5);
+}
+.card-img:hover{
+    background-color: aqua;
+}
+.contact-info .item h6{
+    font-weight: 700;
+}
+.contact-info .item p{
+    font-size:15px ;
+}
+.contact-info .item .icon{
+    font-size: 25px;
+    margin-bottom: 15px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background: #f4f4f4;
+    border-radius: 50%;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #0d6efd;
+    --bs-btn-border-color: #0d6efd;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0b5ed7;
+    --bs-btn-hover-border-color: #0a58ca;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0a58ca;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+}
+footer{
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+}
+footer p{
+    font-size: 13px;
+}
